@@ -1,0 +1,8 @@
+
+/node_modules
+*.sh
+add-bom.js
+package-lock.json
+.env
+
+# End.

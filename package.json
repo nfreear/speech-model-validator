@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@nfreear/speech-model-validator",
+  "description": "Run some validation checks for Azure custom speech model files, before upload!",
+  "license": "UNLICENSED",
+  "repository": "https://github.com/nfreear/speech-model-validator.git",
+  "scripts": {
+    "es6": "node --experimental-modules src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "strip-bom": "^4.0.0"
+  }
+}
